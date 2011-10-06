@@ -1,0 +1,18 @@
+<html t:type="layout" title="Submit One Message"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+<body>
+    	<form t:type="form" t:id="names" style="border: medium solid gray">
+		<t:errors/>
+		<table>
+			<tr>
+				<td>Message:</td>
+				<td><input t:type="TextField" t:id="message" t:validate="required"/></td>
+			</tr>
+			<tr>
+				<td><t:linksubmit t:id="newlinksubmit">Submit To Queue</t:linksubmit></td>
+			</tr>
+		</table>
+ 	</form>
+</body>
+</html>

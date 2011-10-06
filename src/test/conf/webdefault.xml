@@ -109,8 +109,8 @@
 
     <!-- ==================================================================== -->
     <welcome-file-list>
-        <welcome-file>Submission.html</welcome-file>
-        <welcome-file>Submission.htm</welcome-file>
+        <welcome-file>Index.html</welcome-file>
+        <welcome-file>Index.htm</welcome-file>
     </welcome-file-list>
 
     <!-- ==================================================================== -->

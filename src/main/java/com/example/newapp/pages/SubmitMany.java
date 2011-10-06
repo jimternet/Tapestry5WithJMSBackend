@@ -1,6 +1,6 @@
 package com.example.newapp.pages;
 
-public class Contact
+public class SubmitMany
 {
 
 }

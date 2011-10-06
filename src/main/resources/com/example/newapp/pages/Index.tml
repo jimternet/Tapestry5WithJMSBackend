@@ -5,17 +5,7 @@
         <!-- Most of the page content, including <head>, <body>, etc. tags, comes from Layout.tml -->
 
 
-	<form t:type="form" t:id="names" style="border: medium solid gray">
-		<t:errors/>
-		<table>
-			<tr>
-				<td>Message:</td>
-				<td><input t:type="TextField" t:id="message" t:validate="required"/></td>
-			</tr>
-			<tr>
-				<td><t:linksubmit t:id="newlinksubmit">Submit To Queue</t:linksubmit></td>
-			</tr>
-		</table>
- 	</form>
+Try out the submit page 
+then try ou thte results page.
 
 </html>

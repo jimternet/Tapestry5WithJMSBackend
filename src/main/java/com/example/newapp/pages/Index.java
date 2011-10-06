@@ -13,30 +13,5 @@ import org.springsource.greenbeans.examples.jms.core.Producer;
  */
 public class Index {
 
-	@Inject
-	private ApplicationContext springContext;
-
-	@Property
-	private String message;
-
-	@InjectPage
-	private Results resultsPage;
-
-
-
-
-	Object onSuccess() {
-		Producer producer = springContext.getBean(Producer.class);
-
-		try {
-			producer.sendTextMessage(message);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-//		resultsPage.set(message);
-		return resultsPage;
-	}
 
 }
