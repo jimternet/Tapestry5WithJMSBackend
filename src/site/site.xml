@@ -8,7 +8,7 @@
     <body>
 
         <menu name="newapp Project">
-            <item name="About" href="index.html"/>
+            <item name="About" href="Submission.html"/>
         </menu>
 
         <menu ref="reports"/>

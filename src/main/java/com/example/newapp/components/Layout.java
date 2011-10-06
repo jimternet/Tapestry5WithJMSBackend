@@ -40,7 +40,7 @@ public class Layout
     public String[] getPageNames()
     {
 //      return new String[] { "SubmissionPage", "About", "Contact", "Results"};
-      return new String[] { "SubmissionPage","Results"};
+      return new String[] { "Index","Results"};
 
     }
 }

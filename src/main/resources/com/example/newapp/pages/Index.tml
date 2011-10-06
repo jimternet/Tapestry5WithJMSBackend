@@ -13,7 +13,6 @@
 				<td><input t:type="TextField" t:id="message" t:validate="required"/></td>
 			</tr>
 			<tr>
-				<td></td>
 				<td><t:linksubmit t:id="newlinksubmit">Submit To Queue</t:linksubmit></td>
 			</tr>
 		</table>

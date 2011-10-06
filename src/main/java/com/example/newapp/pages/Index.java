@@ -11,7 +11,7 @@ import org.springsource.greenbeans.examples.jms.core.Producer;
 /**
  * Start page of application newapp.
  */
-public class SubmissionPage {
+public class Index {
 
 	@Inject
 	private ApplicationContext springContext;
