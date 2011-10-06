@@ -14,7 +14,7 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><t:linksubmit t:id="newlinksubmit">Display</t:linksubmit></td>
+				<td><t:linksubmit t:id="newlinksubmit">Submit To Queue</t:linksubmit></td>
 			</tr>
 		</table>
  	</form>

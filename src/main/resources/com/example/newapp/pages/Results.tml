@@ -11,7 +11,7 @@
 
 	<table t:type="grid" 
 	t:source="messages" 
-	t:rowsPerPage="40" 
+	t:rowsPerPage="10" 
 	t:pagerPosition="top">[Grid here]</table><br/>
 
 
