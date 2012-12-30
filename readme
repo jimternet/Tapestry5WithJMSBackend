@@ -1,0 +1,17 @@
+Running on OpenShift
+Create an account at http://openshift.redhat.com/
+
+Create a tomcat application
+
+rhc app create -a tapestryJmsDemo -t jbossews-1.0
+Add this upstream tapestryJmsDemo repo
+
+cd tapestryJmsDemo
+git remote add upstream -m master git://github.com/jimternet/Tapestry5WithJMSBackend.git
+git pull -s recursive -X theirs upstream master
+Then push the repo upstream
+
+git push
+That's it, you can now checkout your application at:
+
+http://tapestryJmsDemo-$namespace.rhcloud.com
